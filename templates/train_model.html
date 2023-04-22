@@ -1,0 +1,15 @@
+<center>
+<h1>Training Report</h1>
+<table>
+    <th>Model Name</th>
+    <th>R2_Score</th>
+    {% for key in final['report'].keys() %}
+    <tr>
+        <td>{{key}}</td>
+        <td>{{final['report'][key]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+<h3>Best Model:{{final['best_model_name']}}</h3>
+<h3> R2_Score:{{final['best_model_score']}}</h3>
+</center>
