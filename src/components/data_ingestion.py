@@ -22,7 +22,8 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Data Ingetion method starts")
         try:
-            df=pd.read_csv(os.path.join('notebook/data','data.csv'))
+            #df=pd.read_csv(os.path.join('notebook/data','data.csv'))
+            df=pd.read_csv(os.path.join('D://fsds/class-assignments/Machine Learning/Regression/ZomatoDeliveryTimePrediction/notebook/data','data.csv'))
             logging.info('Dataset read as pandas Dataframe')
             df=time_date_handle(df)
 

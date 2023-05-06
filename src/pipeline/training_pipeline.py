@@ -18,7 +18,7 @@ def train_model():
     return report
 
 
-
+train_model()
     
 
 
