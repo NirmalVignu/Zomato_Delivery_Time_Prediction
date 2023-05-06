@@ -14,9 +14,9 @@ pip install -r requirements.txt
 
 ```
 Model Name	         R2_Score
-LinearRegression	 0.5043255791789477
-Lasso	             0.4287658503279863
-Ridge	             0.5043254023788882
+LinearRegression	   0.5043255791789477
+Lasso	               0.4287658503279863
+Ridge	               0.5043254023788882
 Elasticnet	         0.42359160220793335
 DecisionTreeRegressor0.49928105822682345
 SVR                  0.5825173935671815
